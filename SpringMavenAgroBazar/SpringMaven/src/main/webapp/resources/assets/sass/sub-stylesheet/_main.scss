@@ -1,0 +1,1096 @@
+/* @@@@@@@@@@@@@  feature Section Start Here  @@@@@@@@@@@@@@ */
+.feature-section {
+    @extend %rel;
+    .shape-feature {
+        img {
+            @extend %abs;
+            &.shape-1 {
+                top: 0;
+                right: 0;
+            }
+            &.shape-2 {
+                bottom: 0;
+                left: 0;
+            }
+            &.shape-3 {
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+    .section-header {
+        h3 {}
+        p {
+            max-width: 400px;
+            margin: auto;
+        }
+    }
+    .section-wrapper {
+        margin-bottom: -15px;
+        .feature-item {
+            .feature-inner {
+                .feature-thumb {
+                    img {}
+                }
+                .feature-content {
+                    h5 {}
+                    p {}
+                }
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  About Section Start Here  @@@@@@@@@@@@@@ */
+.about-us {
+    @extend %rel;
+    @extend %hidden;
+    .shape-about {
+        @extend %abs;
+        right: 0;
+        bottom: 0;
+        @include breakpoint(xl) {
+            right: -300px;
+        }
+        @include breakpoint(xxxl) {
+            right: -170px;
+        }
+    }
+    .about-thumb {
+        text-align: center;
+        margin-bottom: 30px;
+        @include breakpoint(lg) {
+            text-align: left;
+            margin-bottom: 0;
+        }
+    }
+    .section-header {
+        h2 {}
+        p {}
+    }
+    .section-wrapper {
+        .about-item {
+            .about-inner {
+                .about-thumb {
+                    img {}
+                }
+                .about-content {
+                    a {
+                        h5 {}
+                    }
+                    p {}
+                }
+            }
+        }
+    }
+    &.home-2 {
+        background: #f8fafe;
+        @include breakpoint(xxl) {
+            overflow: visible;
+        }
+        .shape-image {
+            display: none;
+            @include breakpoint(xxl) {
+                display: block;
+            }
+            .shape-1, .shape-2 {
+                @extend %abs;
+                z-index: 1;
+            }
+            .shape-1 {
+                left: 71px;
+                top: -120px;
+            }
+            .shape-2 {
+                left: 55%;
+                top: 50px;
+            }
+        }
+        .section-header {
+            max-width: 550px;
+            margin: 0 auto 60px;
+            @include breakpoint(xl) {
+                margin-left: 0;
+            }
+        }
+        .section-header, .section-wrapper {
+            @extend %rel;
+            z-index: 1;
+        }
+        .about-wrapper {
+            @extend %rel;
+        }
+        .about-thumb-2 {
+            @extend %abs;
+            bottom: -94px;
+            right: -145px;
+            display: none;
+            @include breakpoint(xl) {
+                display: block;
+            }
+            @include breakpoint(max-xxxl) {
+                @include breakpoint(xxl) {
+                    right: -200px;
+                }
+            }
+            img {
+                max-width: none;
+                width: 100%;
+            }
+        }
+    }
+    &.about-page {
+        .section-wrapper {
+            
+            h3 {}
+            h5 {
+                max-width: 450px;
+                margin: 10px 0 20px;
+                font-weight: 400;
+            }
+            p {
+                max-width: 450px;
+            }
+        }
+        .lab-btn {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  Product Section Start Here  @@@@@@@@@@@@@@ */
+.product-section {
+    .section-header {
+        @include breakpoint(lg) {
+            margin-bottom: 45px;
+        }
+        h3 {}
+        p {
+            max-width: 450px;
+            margin: auto;
+        }
+    }
+    .section-wrapper {
+        margin-bottom: 15px;
+        .product-filter-name {
+            @extend %flex;
+            justify-content: center;
+            margin-bottom: 60px;
+            li {
+                margin: 0 10px;
+                @extend %pointer;
+                &.active {
+                    color: $theme-color;
+                    border-bottom: 1px solid $theme-color;
+                }
+            }
+        }
+        .grid {
+            @extend %flex;
+            margin: -15px;
+            .product-item {
+                width: calc(100% / 1);
+                @include breakpoint(sm) {
+                    width: calc(100% / 2);
+                }
+                @include breakpoint(lg) {
+                    width: calc(100% / 3);
+                }
+                .product-inner {
+                    .product-thumb {
+                        img {}
+                    }
+                    .product-content {
+                        .product-name { }
+                    }
+                }
+            }
+        }
+    }
+    &.product-style2 {
+        @extend %rel;
+        .shape-image {
+            display: none;
+            @include breakpoint(xxl) {
+                display: block;
+            }
+            .shape-1, .shape-2 {
+                @extend %abs;
+                z-index: 1;
+            }
+            .shape-1 {
+                right: 71px;
+                top: 120px;
+            }
+            .shape-2 {
+                left: 0;
+                bottom: 50px;
+            }
+        }
+        .section-wrapper {
+            margin-bottom: 5px;
+        }
+    }
+    &.product-style3 {
+        .section-wrapper {
+            margin-bottom: -5px;
+        }
+        .product-item {
+            @include breakpoint(xl) {
+                margin-bottom: 20px;
+            }
+            .product-inner {
+                margin: 5px;
+            }
+        }
+    }
+    &.product-style4 {
+        .section-wrapper {
+            margin-bottom: -15px;
+        }
+        .product-item {
+            margin-bottom: 30px;
+            .product-inner {
+                margin: 0px;
+            }
+        }
+    }
+    &.product-style5 {
+        .section-wrapper {
+            margin-bottom: -15px;
+            .product-right {
+                margin-bottom: 15px;
+                .slider-product {
+                    @extend %hidden;
+                }
+                .product-slider-item {
+                    .product-slider-thumb {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .slider-product-pagination {
+                    margin-top: 30px;
+                    span {
+                        width: 12px;
+                        height: 12px;
+                        border: 2px solid $theme-color;
+                        background: $white-color;
+                        opacity: 1;
+                        margin: 2px;
+                        &.swiper-pagination-bullet-active {
+                            background: $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.grid-2 {
+        .section-wrapper {
+            margin-bottom: -10px;
+        }
+        .product-item {
+            .product-inner {
+                margin: 0 0 25px;
+                .product-thumb {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    &.masonary {
+        .section-wrapper {
+            margin-bottom: 15px;
+            .grid {
+                .product-item {
+                    width: calc(100% / 1);
+                    @include breakpoint(sm) {
+                        width: calc(100% / 2);
+                    }
+                    @include breakpoint(lg) {
+                        width: calc(100% / 4);
+                    }
+                    .product-inner {
+                        margin: 5px;
+                        .product-thumb {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.home-4 {
+        .section-wrapper {
+            .product-item-2 {
+                .product-inner {
+                    @extend %flex;
+                    align-items: center;
+                    @include transition($transition);
+                    box-shadow: 0 0 6px rgba(8, 136, 136, 0.1);
+                    &:hover {
+                        box-shadow: 0 10px 10px rgba(136, 136, 136, 0.1);
+                        .product-thumb {
+                            img {
+                                @include transform(scale(1.05));
+                            }
+                        }
+                    }
+                    .product-thumb {
+                        width: 100%;
+                        @include breakpoint(xl) {
+                            width: 50%;
+                        }
+                        img {}
+                    }
+                    .product-content {
+                        width: 100%;
+                        @include breakpoint(xl) {
+                            width: 50%;
+                            text-align: left;
+                        }
+                        h5 {}
+                        .price {
+                            span {
+                                margin-right: 10px;
+                                color: $theme-color;
+                                del {
+                                    color: $title-color;
+                                }
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                        .cart-option {
+                            left: auto;
+                            margin-top: 15px;
+                            opacity: 1;
+                            position: static;
+                            @include transform(translateX(0%));
+                            .lab-btn {
+                                background: transparent;
+                                border: 2px solid $theme-color;
+                                span {
+                                    color: $theme-color;
+                                }
+                                &:hover {
+                                    &::after {
+                                        background: $theme-color;
+                                    }
+                                    span {
+                                        color: $white-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.home4s2  {
+        .section-wrapper {
+            .product-item-2 {
+                .product-inner {
+                    border: 10px solid $white-color;
+                    background: #eff4f8;
+                    &::after {
+                        @extend %abs;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(0, 0, 0, .70);
+                        @include transform(scale(0));
+                        @include transition($transition);
+                    }
+                    &:hover {
+                        &::after {
+                            @include transform(scale(1));
+                        }
+                        .product-thumb {}
+                    }
+                    .product-thumb {
+                        padding: 20px 0 0;
+                    }
+                    .product-content {
+                        background: transparent;
+                        h5 {}
+                        .price {}
+                        p {
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .cart-option {
+                        @extend %abs;
+                        top: 50%;
+                        left: 50%;
+                        z-index: 1;
+                        @include transform(translate(-50%, -50%));
+                        .lab-btn {
+                            display: block;
+                            padding: 7px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  Abs Product  Section Start Here  @@@@@@@@@@@@@@ */
+.abs-product {
+    .section-wrapper {
+        @extend %rel;
+        z-index: 1;
+        background: $white-color;
+        margin-top: -70px;
+        box-shadow: 0 3px 3px rgba(239, 244, 255, .67);
+        .col-12 {
+            &:last-child {
+                .abs-product-item {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* @@@@@@@@@@@@@  agricul farm  Section Start Here  @@@@@@@@@@@@@@ */
+.agricul-farm-section {
+    @extend %hidden;
+    .section-wrapper {
+        .farm-left {
+            @extend %rel;
+            .agricul-farm-animate {
+                .farm-line {
+                    @extend %abs;
+                    width: 15px;
+                    height: 15px;
+                    background: $theme-color;
+                    @extend %pointer;
+                    @include border-radius(100%);
+                    &:hover {
+                        .lab-tooltip {
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                    &:nth-child(1) {
+                        top: 15%;
+                        right: 20%;
+                    }
+                    &:nth-child(2) {
+                        bottom: 20%;
+                        right: 10%;
+                    }
+                    &:nth-child(3) {
+                        top: 5%;
+                        right: 53%;
+                    }
+                    &:nth-child(4) {
+                        bottom: 30%;
+                        right: 45%;
+                    }
+                    &:nth-child(5) {
+                        top: 10%;
+                        left: 10%;
+                    }
+                    &:nth-child(6) {
+                        bottom: 10%;
+                        left: 25%;           
+                    }
+                }
+            }
+        }
+        .farm-right {
+            @include breakpoint(max-lg) {
+                margin-top: 40px;
+            }
+            .section-header {
+                h3 {}
+                p {}
+                .lab-btn {
+                    margin-top: 30px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  agricul fruits  Section Start Here  @@@@@@@@@@@@@@ */
+.agricul-fruits-section {
+    padding: 40px 0;
+    .section-wrapper {
+        .fruits-left {}
+        .fruits-right {
+            @include breakpoint(max-lg) {
+                margin-top: 40px;
+            }
+            .section-header {
+                margin-bottom: 0;
+                h2 {
+                    color: $theme-color;
+                    span {
+                        color: $title-color;
+                        display: block;
+                        font-weight: 300;
+                    }
+                }
+                p {
+                    max-width: 500px;
+                    @include breakpoint(max-lg) {
+                        margin: auto;
+                    }
+                }
+                .lab-btn {
+                    margin-top: 30px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  Team Member Section Start Here  @@@@@@@@@@@@@@ */
+.team-member-section {
+    .section-wrapper {
+        margin-bottom: -15px;
+    }
+}
+
+/* @@@@@@@@@@@@@  testimonial  Section Start Here  @@@@@@@@@@@@@@ */
+.testimonial-section {
+    .section-header {
+        h3 {}
+        p {
+            max-width: 400px;
+            margin: auto;
+        }
+    }
+    .section-wrapper {
+        .testi-slider {
+            @extend %hidden;
+            padding: 10px;
+        }
+    }
+    &.home-2 {
+        background: $ash-color;
+        .section-header {
+            margin-bottom: 30px;
+            @include breakpoint(max-sm) {
+                padding-top: 8px;
+            }
+        }
+        .testi-thumb-part {
+            @include breakpoint(lg) {
+                margin-bottom: -95px;
+            }
+        }
+        .testi-slider-2 {
+            @extend %hidden;
+            .testi-item {
+                .testi-inner {
+                    padding-left: 0;
+                }
+            }
+        }
+        .testi-navigation {
+            .testi-nav {
+                width: 36px;
+                height: 36px;
+                line-height: 36px;
+                text-align: center;
+                background: $theme-color;
+                color: $white-color;
+                margin-right: 10px;
+                @extend %pointer;
+                @include border-radius(3px);
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    &.home-3 {
+        .section-header {
+            margin-bottom: 30px;
+        }
+        .testi-slider-2 {
+            @extend %hidden;
+            .testi-item {
+                margin: 10px;
+                .testi-inner {
+                    box-shadow: 0 0 10px rgba(136, 136, 136, .10);
+                    padding: 30px;
+                    @include border-radius(6px);
+                }
+            }
+        }
+        .section-wrapper {
+            @extend %rel;
+            &:hover {
+                .testi-navigation {
+                    opacity: 1;
+                }
+            }
+        }
+        .testi-navigation {
+            @extend %abs;
+            top: 50%;
+            width: 70%;
+            left: 50%;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            @include transition($transition);
+            @include breakpoint(max-lg) {
+                display: none !important;
+            }
+            .testi-nav {
+                @extend %abs;
+                width: 36px;
+                height: 36px;
+                line-height: 36px;
+                text-align: center;
+                background: $ash-color;
+                color: $title-color;
+                margin-right: 10px;
+                @extend %pointer;
+                @include border-radius(100%);
+                &:hover, &.active {
+                    color: $white-color;
+                    background: $theme-color;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                &.testi-slider-prev {
+                    left: -20px;
+                }
+                &.testi-slider-next {
+                    right: -20px;
+                }
+            }
+        }
+        .testi-pagination {
+            margin-top: 20px;
+            span {
+                background: $white-color;
+                margin: 2px;
+                border: 2px solid $theme-color;
+                opacity: 1;
+                width: 12px;
+                height: 12px;
+                &.swiper-pagination-bullet-active {
+                    background: $theme-color;
+                }
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  sponsor  Section Start Here  @@@@@@@@@@@@@@ */
+.sponsor-section {
+    .section-wrapper {
+        margin-bottom: 15px;
+        .sponsor-slider {
+            @extend %hidden;
+            text-align: center;
+        }
+    }
+}
+
+
+/* @@@@@@@@@@@@@  Newsletter  Section Start Here  @@@@@@@@@@@@@@ */
+.newsletter-section {
+    padding: 60px 0;
+    background: $theme-color;
+    .newsletter-title {
+        @include breakpoint(max-lg) {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h4 {
+            color: $white-color;
+            margin-bottom: 0;
+        }
+    }
+    .newsletter-form {
+        padding: 5px;
+        background: $white-color;
+        @include border-radius(3px);
+        @include breakpoint(sm) {
+            padding: 10px;
+        }
+        input {
+            height: 40px;
+            border: none;
+            &.input-email {
+                width: calc(100% - 130px);
+                padding: 15px;
+                padding-left: 5px;
+                margin-right: 10px;
+            }
+            &.subscribe-btn {
+                width: 120px;
+                padding: 0 15px;
+                color: $white-color;
+                background: $theme-color;
+                @extend %pointer;
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  Newsletter Section Start Here  @@@@@@@@@@@@@@ */
+.counterup-section {
+    @extend %rel;
+    .section-wrapper {
+        .col-12 {
+            &:last-child {
+                .counter-item {
+                    .counter-inner {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                @include breakpoint(sm) {
+                    @include breakpoint(max-xl) {
+                        .counter-item {
+                            .counter-inner {
+                                &::after {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .counter-item {
+            .counter-inner {
+                @extend %rel;
+                &::after {
+                    @extend %abs;
+                    top: 0;
+                    right: 0;
+                    width: 1px;
+                    height: 100%;
+                    background: $white-color;
+                    display: none;
+                    @include breakpoint(sm) {
+                        display: block;
+                    }
+                }
+                .counter-thumb {
+                    img {}
+                }
+                .counter-content {
+                    .count-number {}
+                    .count-title { }
+                }
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  countdown Section Start Here  @@@@@@@@@@@@@@ */
+.countdown-section {
+    background: url(../../assets/images/bg-images/bg-countdown.jpg);
+    padding: 30px 0;
+    @extend %rel;
+    .shape-image {
+        img {
+            @extend %abs;
+            &.shape-1 {
+                right: 0;
+                top: -100px;
+            }
+            &.shape-2 {
+                left: 0;
+                bottom: -100px;
+            }
+        }
+    }
+    .countdown-thumb {
+        @include breakpoint(max-lg) {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+    .countdown-area {
+        h2, p {
+            color: $white-color;
+        }
+        .countdown {
+            margin-top: 30px;
+            li {
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                margin-right: 10px;
+                background: $white-color;
+                @include border-radius(4px);
+                @include breakpoint(sm) {
+                    width: 90px;
+                    height: 90px;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                h3 {
+                    color: $theme-color;
+                    margin: 10px 0 0;
+                    span {}
+                }
+                p {
+                    color: $title-color;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 11px;
+                    @include breakpoint(sm) {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .lab-btn {
+            background: $white-color;
+            margin-top: 30px;
+            &:hover {
+                span {
+                    color: $white-color;
+                }
+            }
+            span {
+                color: $theme-color;
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  Offer Section Start Here  @@@@@@@@@@@@@@ */
+.offer-section {
+    .section-wrapper {
+        margin-bottom: -10px;
+        .offer-item {
+            .offer-inner {
+                .offer-thumb {}
+                .offer-content {
+                    .catagory h5, h3 {
+                        color: $white-color;
+                    }
+                    h3 {
+                        margin-bottom: 20px;
+                        line-height: 1.2;
+                    }
+                    .lab-btn {}
+                }
+            }
+            &.bgc-1 {
+                background: #ffb11f;
+            }
+            &.bgc-2 {
+                background: #f54830;
+            }
+            &.bgc-3 {
+                background: #83ba43;
+            }
+            &.bgc-4 {
+                background: #852d6d;
+            }
+        }
+    }
+}
+
+
+/* @@@@@@@@@@@@@  Contact Us Section Start Here  @@@@@@@@@@@@@@ */
+.contact-section {
+    .contac-top {
+        margin-bottom: 60px;
+    }
+    .contac-bottom {
+        margin-bottom: 15px;
+    }
+}
+.location-map {
+    @include breakpoint(max-lg) {
+        margin-bottom: 15px;
+    }
+    #map {
+        height: 435px;
+        width: 100%;
+        iframe {
+            height: 100%;
+            width: 100%;
+            border: none;
+        }
+    }
+}
+.contact-form {
+    form {
+        &.comment-form {
+            @extend %flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 0;
+            input[type="text"], [type="email"] {
+                padding: 10px 15px;
+                border: 1px solid $border-color;
+                background: $white-color;
+                width: 100%;
+                margin-bottom: 15px;
+                @include breakpoint(sm) {
+                    width: calc(100% / 2 - 10px);
+                }
+                &:nth-child(3) {
+                    @include breakpoint(md) {
+                        width: 100% !important;
+                        margin-right: 0;
+                    }
+                }
+            }
+            textarea {
+                background: $white-color;
+                border: 1px solid $border-color;
+                width: 100%;
+                padding: 10px 15px;
+            }
+            button {
+                &.lab-btn {
+                    width: 100%;
+                    margin-top: 15px;
+                    padding: 10px 15px;
+                    color: $white-color;
+                    background: $theme-color;
+                    outline: none;
+                    border: none;
+                    box-shadow: 0 5px 5px rgba(255, 177, 31, .25);
+                    @extend %pointer;
+                    &:hover {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* @@@@@@@@@@@@@  Faq Section Start Here  @@@@@@@@@@@@@@ */
+.faq-section {
+    .faq-tab {
+        padding: 30px;
+        box-shadow: 0 5px 5px rgba(81, 70, 174, .15);
+        @include breakpoint(max-lg) {
+            margin-bottom: 30px;
+        }
+        > h5 {
+            margin-bottom: 15px;
+        }
+        ul {
+            li {
+                width: 100%;
+                a {
+                    padding: 5px 0;
+                    color: #716c80;
+                    font-size: 16px;
+                    &.active {
+                        color: $theme-color;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .faq-content {
+        .tab-pane {
+            > h5 {
+                color: $theme-color;
+                margin-bottom: 15px;
+                text-decoration: underline;
+            }
+            .card {
+                margin-bottom: 25px;
+                border: none;
+                box-shadow: 0 3px 3px rgba(81, 70, 174, .15);
+            }
+            .card-header {
+                background: #fdfeff;
+                border: none;
+                padding: 0;
+                @extend %pointer;
+                .faq-item {
+                    padding: 20px 30px;
+                    border: none;
+                    width: 100%;
+                    text-align: left;
+                    outline: none;
+                    background: #fdfeff;
+                    @extend %pointer;
+                    @extend %rel;
+                    font-size: 16px;
+                    @include breakpoint(sm) {
+                        font-size: 20px;
+                    }
+                    &::after, &::before {
+                        @extend %abs;
+                        background: $title-color;
+                        right: 20px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                    &::after {
+                        width: 20px;
+                        height: 2px;
+                    }
+                    &.collapsed {
+                        &::before {
+                            width: 2px;
+                            height: 20px;
+                            right: 29px;
+                        }
+                    }
+                }
+            }
+            .card-body {
+                background: #fdfeff;
+                padding-top: 0px;
+                padding-left: 30px;
+                padding-right: 30px;
+                p {}
+            }
+        }
+    }
+}
+
+/* @@@@@@@@@@@@@  404 page Section Start Here  @@@@@@@@@@@@@@ */
+.fore-zero {
+    .section-wrapper {
+        .zero-item {
+            h2 {
+                line-height: 1.4;
+                margin-bottom: 45px;
+                font-weight: 400;
+            }
+            .zero-thumb {
+                margin-bottom: 40px;
+            }
+            .zero-content {}
+        }
+    }
+}
