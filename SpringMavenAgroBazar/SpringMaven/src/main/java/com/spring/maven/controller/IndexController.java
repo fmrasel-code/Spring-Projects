@@ -21,7 +21,10 @@ public class IndexController {
     public ModelAndView index() {
         return new ModelAndView("index");
     }
-
+    @RequestMapping("/index")
+    public ModelAndView index1() {
+        return new ModelAndView("index");
+    }
     @RequestMapping("/404")
     public ModelAndView notFound() {
         return new ModelAndView("404");
@@ -32,7 +35,7 @@ public class IndexController {
         return new ModelAndView("cart-page");
     }
 
-    @RequestMapping("/product-page")
+    @RequestMapping("/products")
     public ModelAndView productPage() {
         return new ModelAndView("product-page");
     }

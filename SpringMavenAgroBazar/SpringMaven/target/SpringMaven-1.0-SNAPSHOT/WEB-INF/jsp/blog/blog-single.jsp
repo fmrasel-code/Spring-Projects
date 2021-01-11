@@ -7,25 +7,25 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>AgroBazar Blog Single</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<!-- google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-		<link rel="shortcut icon" type="image/x-icon" href="resources/assets/images/x-icon/agricul.png">
+    <head>
+        <title>AgroBazar Blog Single</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="resources/assets/css/animate.css">
-		<link rel="stylesheet" href="resources/assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="resources/assets/css/all.min.css">
-		<link rel="stylesheet" href="resources/assets/css/icofont.min.css">
-		<link rel="stylesheet" href="resources/assets/css/lightcase.css">
-		<link rel="stylesheet" href="resources/assets/css/swiper.min.css">
-		<link rel="stylesheet" href="resources/assets/css/style.css">
-	</head>
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="resources/assets/images/x-icon/agricul.png">
 
-	<body>
+        <link rel="stylesheet" href="resources/assets/css/animate.css">
+        <link rel="stylesheet" href="resources/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/assets/css/all.min.css">
+        <link rel="stylesheet" href="resources/assets/css/icofont.min.css">
+        <link rel="stylesheet" href="resources/assets/css/lightcase.css">
+        <link rel="stylesheet" href="resources/assets/css/swiper.min.css">
+        <link rel="stylesheet" href="resources/assets/css/style.css">
+    </head>
+
+    <body>
         <!-- preloader start here -->
         <div class="preloader">
             <div class="preloader-inner">
@@ -36,158 +36,9 @@
             </div>
         </div>
         <!-- preloader ending here -->
-        
-		<!-- Mobile Menu Start Here -->
-		<div class="mobile-menu">
-			<nav class="mobile-header">
-				<div class="header-logo">
-					<a href="index.html"><img src="resources/assets/images/logo/01.png" alt="logo"></a>
-				</div>
-				<div class="header-bar">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</nav>
-			<nav class="mobile-menu">
-				<div class="mobile-menu-area">
-					<div class="mobile-menu-area-inner">
-						<ul class="agri-ul">
-                            <li><a href="#">Home</a>
-                                <ul class="agri-ul">
-                                    <li><a href="index.html">Agricul Farm</a></li>
-                                    <li><a href="index-2.html">Agricul Farm2</a></li>
-									<li><a href="index-3.html">Agricul Farm3</a></li>
-									<li><a href="index-4.html">Agricul Farm4</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Pages</a>
-                                <ul class="agri-ul">
-                                    <li><a href="about.html">About Page</a></li>
-                                    <li><a href="team.html">Team Page</a></li>
-                                    <li><a href="faq-page.html">Faq Page</a></li>
-                                    <li><a href="404.html">404 Page</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Gallery</a>
-                                <ul class="agri-ul">
-                                    <li><a href="gallery-grid2.html">Gallery 2 Grid</a></li>
-                                    <li><a href="gallery-masonary.html">Gallery Masonary</a></li>
-                                </ul>
-                            </li>
-                            <li class="active">
-                                <a href="#">Blog</a>
-                                <ul>
-                                    <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-ls.html">Blog Left Sidebar</a></li>
-                                    <li class="active"><a href="blog-single.html">Blog Single Page</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Shop</a>
-                                <ul class="agri-ul">
-                                    <li><a href="product-page.html">Product</a></li>
-                                    <li><a href="product-single.html">Product Single</a></li>
-                                    <li><a href="cart-page.html">Cart Page</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact-us.html">Contact</a></li>
-                        </ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-		<!-- Mobile Menu Ending Here -->
 
-		<!-- desktop menu start here -->
-		<header class="header-section">
-            <div class="header-top">
-				<div class="container">
-					<div class="row justify-content-center align-items-center">
-						<div class="col-lg-7 col-12">
-							<div class="ht-left">
-								<ul class="agri-ul d-flex flex-wrap">
-									<li><i class="icofont-envelope"></i><span>Chashi@gmail.com</span></li>
-									<li><i class="icofont-phone"></i><span>+88130-589-745-6987</span></li>
-									<li><i class="icofont-stopwatch"></i><span>Mon - Fri 09:00 - 18:00</span></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-5 col-12">
-							<div class="ht-right">
-								<div class="scocial-media">
-                                    <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                                    <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-                                    <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
-                                    <a href="#" class="vimeo"><i class="icofont-vimeo"></i></a>
-                                </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="header-area">
-				<div class="container">
-					<div class="primary-menu">
-						<div class="logo">
-							<a href="index.html"><img src="resources/assets/images/logo/01.png" alt="logo"></a>
-						</div>
-						<div class="main-area">
-							<div class="main-menu">
-								<ul class="agri-ul">
-									<li><a href="#">Home</a>
-										<ul class="agri-ul">
-											<li><a href="index.html">Agricul Farm</a></li>
-                                            <li><a href="index-2.html">Agricul Farm2</a></li>
-                                            <li><a href="index-3.html">Agricul Farm3</a></li>
-                                            <li><a href="index-4.html">Agricul Farm4</a></li>
-										</ul>
-									</li>
-									<li>
-                                        <a href="#">Pages</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="about.html">About Page</a></li>
-                                            <li><a href="team.html">Team Page</a></li>
-                                            <li><a href="faq-page.html">Faq Page</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                        </ul>
-                                    </li>
-									<li>
-                                        <a href="#">Gallery</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="gallery-grid2.html">Gallery 2 Grid</a></li>
-                                            <li><a href="gallery-masonary.html">Gallery Masonary</a></li>
-                                        </ul>
-                                    </li>
-									<li class="active">
-										<a href="#">Blog</a>
-										<ul>
-											<li><a href="blog.html">Blog Right Sidebar</a></li>
-											<li><a href="blog-ls.html">Blog Left Sidebar</a></li>
-											<li class="active"><a href="blog-single.html">Blog Single Page</a></li>
-										</ul>
-									</li>
-									<li>
-                                        <a href="#">Shop</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="product-page.html">Product</a></li>
-                                            <li><a href="product-single.html">Product Single</a></li>
-                                            <li><a href="cart-page.html">Cart Page</a></li>
-                                        </ul>
-                                    </li>
-									<li><a href="contact-us.html">Contact</a></li>
-								</ul>
-							</div>
-							<div class="header-btn">
-								<a href="#" class="lab-btn"><span>Get in Touch</span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+<!--Header-->
+ <jsp:include page="/WEB-INF/jsp/common/header-menu.jsp" />
         <!-- desktop menu ending here -->
 
         <!-- Page Header Section Start Here -->
@@ -204,7 +55,7 @@
             </div>
         </section>
         <!-- Page Header Section Ending Here -->
-		
+
         <!-- Blog Section Start Here -->
         <div class="blog-section blog-single padding-tb">
             <div class="container">
@@ -225,12 +76,12 @@
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem is of the printing abIpsum our beeintery's Standard dummy text ever since the 1500s, when an unknown printer took ar galley of typ and scrambledji simply dummy make Type specimen book. It has survived not only five centuries, intobut also th leap into electronic</p>
                                             <p>Authoritatively strategize inexpensive relationships after cutting-edge innovation. Interactivelye frcat inexpensihipsworldwe suply Chains after equity invested strategic theme areas. Continually productivate that urnke leadership skills after equity and customized Mindshare. Holisticly envisioneer highly efficient value before.</p>
                                             <div class="qute-content text-center">
-												<blockquote>
-													<p>It’s no secret that the digital industry is booming. from exciting startups to global brands, to the new companies boomingesagencies, responding to the new possibilities available. however, the industry is exciting  fast heaving with goloballife agencies offering similar services.</p>
-													<cite>
-														<a href="#">Rajib Ahmed</a>
-													</cite>
-												</blockquote>
+                                                <blockquote>
+                                                    <p>It’s no secret that the digital industry is booming. from exciting startups to global brands, to the new companies boomingesagencies, responding to the new possibilities available. however, the industry is exciting  fast heaving with goloballife agencies offering similar services.</p>
+                                                    <cite>
+                                                        <a href="#">Rajib Ahmed</a>
+                                                    </cite>
+                                                </blockquote>
                                             </div>
                                             <p>Proactively unleash parallel outsourcing without equity invested systems.Convenientcocplume mkets ForThe backward-compatible models. Distinctively transition transparent sources after e-business scricly E-enablese bricks-and-clicks vortals with client-based outsourcing. Professionally drive one-to-oneitures Before worldwid e growth strategie Holisticly envisioneer highly efficient value before.</p>
                                         </div>
@@ -404,7 +255,7 @@
                                             <img src="resources/assets/images/team/01.jpg" alt="author">
                                         </div>
                                         <div class="admin-content">
-											<h5>Sahjahan Sagor</h5>
+                                            <h5>Sahjahan Sagor</h5>
                                             <p>Authoritatively restore orthog ips ineer installed Intrinsiclyts imperatives.</p>
                                             <div class="scocial-media">
                                                 <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
@@ -444,7 +295,7 @@
                                         </li>
                                     </ul>
                                 </div>
-            
+
                                 <div class="widget widget-post">
                                     <div class="widget-header">
                                         <h5>Recent Post</h5>
@@ -455,34 +306,34 @@
                                                 <a href="blog-single.html"><img src="resources/assets/images/product/10.jpg" alt="product"></a>
                                             </div>
                                             <div class="post-content">
-												<a href="blog-single.html"><h6>Conveniently utilize premier metho.</h6></a>
+                                                <a href="blog-single.html"><h6>Conveniently utilize premier metho.</h6></a>
                                                 <p>04 February 2019</p>
                                             </div>
-										</li>
-										<li class="d-flex flex-wrap justify-content-between">
+                                        </li>
+                                        <li class="d-flex flex-wrap justify-content-between">
                                             <div class="post-thumb">
                                                 <a href="blog-single.html"><img src="resources/assets/images/product/11.jpg" alt="product"></a>
                                             </div>
                                             <div class="post-content">
-												<a href="blog-single.html"><h6>Seamlessly fashion customiz before.</h6></a>
+                                                <a href="blog-single.html"><h6>Seamlessly fashion customiz before.</h6></a>
                                                 <p>04 February 2019</p>
                                             </div>
-										</li>
-										<li class="d-flex flex-wrap justify-content-between">
+                                        </li>
+                                        <li class="d-flex flex-wrap justify-content-between">
                                             <div class="post-thumb">
                                                 <a href="blog-single.html"><img src="resources/assets/images/product/12.jpg" alt="product"></a>
                                             </div>
                                             <div class="post-content">
-												<a href="blog-single.html"><h6>Conveniently utilize premier metho.</h6></a>
+                                                <a href="blog-single.html"><h6>Conveniently utilize premier metho.</h6></a>
                                                 <p>04 February 2019</p>
                                             </div>
-										</li>
-										<li class="d-flex flex-wrap justify-content-between">
+                                        </li>
+                                        <li class="d-flex flex-wrap justify-content-between">
                                             <div class="post-thumb">
                                                 <a href="blog-single.html"><img src="resources/assets/images/product/13.jpg" alt="product"></a>
                                             </div>
                                             <div class="post-content">
-												<a href="blog-single.html"><h6>Seamlessly fashion customiz before.</h6></a>
+                                                <a href="blog-single.html"><h6>Seamlessly fashion customiz before.</h6></a>
                                                 <p>04 February 2019</p>
                                             </div>
                                         </li>
@@ -526,156 +377,156 @@
         <!-- Blog Section ENding Here -->
 
         <!-- newsletters section start here -->
-		<div class="newsletter-section">
-			<div class="container">
-				<div class="row justify-content-lg-between justify-content-center align-items-center">
-					<div class="col-lg-6 col-12">
-						<div class="newsletter-title">
-							<h4>Subscribe Our Newsletter</h4>
-						</div>
-					</div>
-					<div class="col-lg-6 col-12">
-						<div class="newsletter-form">
-							<form action="/" class="d-flex flex-wrap">
-								<input type="text" placeholder="Enter Your Email" class="input-email">
-								<input type="submit" value="Subscribe" class="subscribe-btn">
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- newsletters section ending here -->
+        <div class="newsletter-section">
+            <div class="container">
+                <div class="row justify-content-lg-between justify-content-center align-items-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="newsletter-title">
+                            <h4>Subscribe Our Newsletter</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="newsletter-form">
+                            <form action="/" class="d-flex flex-wrap">
+                                <input type="text" placeholder="Enter Your Email" class="input-email">
+                                <input type="submit" value="Subscribe" class="subscribe-btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- newsletters section ending here -->
 
-		<!-- footer section start here -->
-		<footer class="footer-section padding-tb pb-0">
-			<div class="container">
-				<div class="footer-top">
-					<div class="row">
-						<div class="col-xl-3 col-md-6 col-12">
-							<div class="footer-item">
-								<div class="footer-inner">
-									<div class="footer-logo">
-										<img src="resources/assets/images/logo/01.png" alt="footer-logo">
-									</div>
-									<div class="footer-desc">
-										<p>Conveniently customizec web services aggregate frictionle internet withouevs Conveniently customizec.</p>
-										<p>aggregate frictionle without aggregate Conveniently customizec efrictionle.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-md-6 col-12">
-							<div class="footer-item footer-addtess">
-								<div class="footer-inner">
-									<div class="footer-title">
-										<h5>Keep In Touch</h5>
-									</div>
-									<div class="footer-body">
-										<ul class="agri-ul">
-											<li>
-												<div class="icon">
-													<i class="icofont-google-map"></i>
-												</div>
-												<div class="detalis">
-													<p>Sector # 48,123 Vokte Street, Melborn city, Australia</p>
-												</div>
-											</li>
-											<li>
-												<div class="icon">
-													<i class="icofont-phone"></i>
-												</div>
-												<div class="detalis">
-													<p>+88978-658-125, 0078-98-954, +1655-456-523</p>
-												</div>
-											</li>
-											<li>
-												<div class="icon">
-													<i class="icofont-envelope"></i>
-												</div>
-												<div class="detalis">
-													<p>Chashi@gmail.com</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-md-6 col-12">
-							<div class="footer-item footer-blog">
-								<div class="footer-inner">
-									<div class="footer-title">
-										<h5>Chashi Product</h5>
-									</div>
-									<div class="footer-body">
-										<ul class="agri-ul">
-											<li>
-												<div class="thumb">
-													<a href="blog-single.html"><img src="resources/assets/images/blog/01.jpg" alt="footer-blog"></a>
-												</div>
-												<div class="detalis">
-													<a href="blog-single.html"><h5>Fruits &Vegetable</h5></a>
-													<h6>$24.99</h6>
-												</div>
-											</li>
-											<li>
-												<div class="thumb">
-													<a href="blog-single.html"><img src="resources/assets/images/blog/02.jpg" alt="footer-blog"></a>
-												</div>
-												<div class="detalis">
-													<a href="blog-single.html"><h5>Natural &Honey</h5></a>
-													<h6>$25.99</h6>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-md-6 col-12">
-							<div class="footer-item footer-gallery">
-								<div class="footer-inner">
-									<div class="footer-title">
-										<h5>Chashi Product</h5>
-									</div>
-									<div class="footer-body">
-										<ul class="agri-ul">
-											<li><a href="#"><img src="resources/assets/images/gallery/01.jpg" alt="footer-gallery"></a></li>
-											<li><a href="#"><img src="resources/assets/images/gallery/02.jpg" alt="footer-gallery"></a></li>
-											<li><a href="#"><img src="resources/assets/images/gallery/03.jpg" alt="footer-gallery"></a></li>
-											<li><a href="#"><img src="resources/assets/images/gallery/04.jpg" alt="footer-gallery"></a></li>
-											<li><a href="#"><img src="resources/assets/images/gallery/05.jpg" alt="footer-gallery"></a></li>
-											<li><a href="#"><img src="resources/assets/images/gallery/06.jpg" alt="footer-gallery"></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-bottom">
-					<p>&copy; 2021<a href="/" target="_blank"><span>AgroBazar</span></a>All Rights Reserved By<a href="#" target="_blank"><span>AgroBazar</span></a></p>
-				</div>
-			</div>
-		</footer>
-		<!-- footer section ending here -->
+        <!-- footer section start here -->
+        <footer class="footer-section padding-tb pb-0">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="footer-item">
+                                <div class="footer-inner">
+                                    <div class="footer-logo">
+                                        <img src="resources/assets/images/logo/01.png" alt="footer-logo">
+                                    </div>
+                                    <div class="footer-desc">
+                                        <p>Conveniently customizec web services aggregate frictionle internet withouevs Conveniently customizec.</p>
+                                        <p>aggregate frictionle without aggregate Conveniently customizec efrictionle.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="footer-item footer-addtess">
+                                <div class="footer-inner">
+                                    <div class="footer-title">
+                                        <h5>Keep In Touch</h5>
+                                    </div>
+                                    <div class="footer-body">
+                                        <ul class="agri-ul">
+                                            <li>
+                                                <div class="icon">
+                                                    <i class="icofont-google-map"></i>
+                                                </div>
+                                                <div class="detalis">
+                                                    <p>Sector # 48,123 Vokte Street, Melborn city, Australia</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <i class="icofont-phone"></i>
+                                                </div>
+                                                <div class="detalis">
+                                                    <p>+88978-658-125, 0078-98-954, +1655-456-523</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <i class="icofont-envelope"></i>
+                                                </div>
+                                                <div class="detalis">
+                                                    <p>Chashi@gmail.com</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="footer-item footer-blog">
+                                <div class="footer-inner">
+                                    <div class="footer-title">
+                                        <h5>Chashi Product</h5>
+                                    </div>
+                                    <div class="footer-body">
+                                        <ul class="agri-ul">
+                                            <li>
+                                                <div class="thumb">
+                                                    <a href="blog-single.html"><img src="resources/assets/images/blog/01.jpg" alt="footer-blog"></a>
+                                                </div>
+                                                <div class="detalis">
+                                                    <a href="blog-single.html"><h5>Fruits &Vegetable</h5></a>
+                                                    <h6>$24.99</h6>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="thumb">
+                                                    <a href="blog-single.html"><img src="resources/assets/images/blog/02.jpg" alt="footer-blog"></a>
+                                                </div>
+                                                <div class="detalis">
+                                                    <a href="blog-single.html"><h5>Natural &Honey</h5></a>
+                                                    <h6>$25.99</h6>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="footer-item footer-gallery">
+                                <div class="footer-inner">
+                                    <div class="footer-title">
+                                        <h5>Chashi Product</h5>
+                                    </div>
+                                    <div class="footer-body">
+                                        <ul class="agri-ul">
+                                            <li><a href="#"><img src="resources/assets/images/gallery/01.jpg" alt="footer-gallery"></a></li>
+                                            <li><a href="#"><img src="resources/assets/images/gallery/02.jpg" alt="footer-gallery"></a></li>
+                                            <li><a href="#"><img src="resources/assets/images/gallery/03.jpg" alt="footer-gallery"></a></li>
+                                            <li><a href="#"><img src="resources/assets/images/gallery/04.jpg" alt="footer-gallery"></a></li>
+                                            <li><a href="#"><img src="resources/assets/images/gallery/05.jpg" alt="footer-gallery"></a></li>
+                                            <li><a href="#"><img src="resources/assets/images/gallery/06.jpg" alt="footer-gallery"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2021<a href="/" target="_blank"><span>AgroBazar</span></a>All Rights Reserved By<a href="#" target="_blank"><span>AgroBazar</span></a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section ending here -->
 
-		<!-- scrollToTop start here -->
-		<a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i><span class="pluse_1"></span><span class="pluse_2"></span></a>
+        <!-- scrollToTop start here -->
+        <a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i><span class="pluse_1"></span><span class="pluse_2"></span></a>
         <!-- scrollToTop ending here -->
-        
-		
-		<script src="resources/assets/js/jquery.js"></script>
-		<script src="resources/assets/js/fontawesome.min.js"></script>
-		<script src="resources/assets/js/waypoints.min.js"></script>
-		<script src="resources/assets/js/bootstrap.min.js"></script>
-		<script src="resources/assets/js/wow.min.js"></script>
-		<script src="resources/assets/js/swiper.min.js"></script>
-		<script src="resources/assets/js/jquery.countdown.min.js"></script>
-		<script src="resources/assets/js/jquery.counterup.min.js"></script>
-		<script src="resources/assets/js/isotope.pkgd.min.js"></script>
-		<script src="resources/assets/js/lightcase.js"></script>
+
+
+        <script src="resources/assets/js/jquery.js"></script>
+        <script src="resources/assets/js/fontawesome.min.js"></script>
+        <script src="resources/assets/js/waypoints.min.js"></script>
+        <script src="resources/assets/js/bootstrap.min.js"></script>
+        <script src="resources/assets/js/wow.min.js"></script>
+        <script src="resources/assets/js/swiper.min.js"></script>
+        <script src="resources/assets/js/jquery.countdown.min.js"></script>
+        <script src="resources/assets/js/jquery.counterup.min.js"></script>
+        <script src="resources/assets/js/isotope.pkgd.min.js"></script>
+        <script src="resources/assets/js/lightcase.js"></script>
         <script src="resources/assets/js/functions.js"></script>
-	</body>
+    </body>
 </html>

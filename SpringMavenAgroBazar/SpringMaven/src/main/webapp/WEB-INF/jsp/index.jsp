@@ -52,49 +52,34 @@
             <nav class="mobile-menu">
                 <div class="mobile-menu-area">
                     <div class="mobile-menu-area-inner">
-                        <ul class="agri-ul">
-                            <li class="active"><a href="/index">Home</a>
-<!--                                <ul class="agri-ul">
-                                    <li class="active"><a href="index">AgroBazar</a></li>
-                                    <li><a href="#">AgroBazar 1</a></li>
-                                    <li><a href="#">AgroBazar 2</a></li>
-                                    <li><a href="#">AgroBazar 3</a></li>
-                                </ul>-->
-                            </li>
-                            <li>
-                                <a href="#">Pages</a>
                                 <ul class="agri-ul">
-                                    <li><a href="/about">About us</a></li>
-                                    <li><a href="/team"> Our Team</a></li>
-                                    <li><a href="/faq-page">Faq</a></li>
-                                    <li><a href="/404">404 Page</a></li>
+                                    <li class="active"><a href="/">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/gallery">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="/blog">Our Blog</a>
+
+                                    </li>
+                                    <li>
+                                        <a href="/products">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="/cart">cart</a>
+                                    </li>
+                                    <li><a href="/contact">Contact</a></li>
+                                    <li>
+                                        <a href="#">About Us</a>
+                                        <ul class="agri-ul">
+                                            <li><a href="/about">About </a></li>
+                                            <li><a href="/team"> Ours Team</a></li>
+                                            <li><a href="/faq">Faq</a></li>
+
+                                        </ul>
+                                    </li>
                                 </ul>
-                            </li>
-                            <li>
-                                <a href="/gallery">Gallery</a>
-<!--                                <ul class="agri-ul">
-                                    <li><a href="gallery-grid2.html">Gallery 2 Grid</a></li>
-                                    <li><a href="gallery-masonary.html">Gallery Masonary</a></li>
-                                </ul>-->
-                            </li>
-                            <li>
-                                <a href="/blog">Blog</a>
-<!--                                <ul>
-                                    <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-ls.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-single.html">Blog Single Page</a></li>
-                                </ul>-->
-                            </li>
-                            <li>
-                                <a href="/product-page">Shop</a>
-                                <ul class="agri-ul">
-                                    <li><a href="/product-page">Product</a></li>
-                                    <li><a href="/product-single">Product Single</a></li>
-                                    <li><a href="cart-page.html">Cart Page</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="/contact">Contact Us</a></li>
-                        </ul>
                     </div>
                 </div>
             </nav>
@@ -112,51 +97,38 @@
                         <div class="main-area">
                             <div class="main-menu">
                                 <ul class="agri-ul">
-                                    <li class="active"><a href="#">Home</a>
-                                        <ul class="agri-ul">
-                                            <li class="active"><a href="/index">AgroBazar</a></li>
-                                            <li><a href="#">AgroBazar 1</a></li>
-                                            <li><a href="#">AgroBazar 2</a></li>
-                                            <li><a href="#">AgroBazar 3</a></li>
-                                        </ul>
+                                    <li class="active"><a href="/">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/gallery">Gallery</a>
                                     </li>
                                     <li>
-                                        <a href="#">Pages</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="about.html">About Page</a></li>
-                                            <li><a href="team.html">Team Page</a></li>
-                                            <li><a href="faq-page.html">Faq Page</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                        </ul>
+                                        <a href="/blog">Our Blog</a>
+
                                     </li>
                                     <li>
-                                        <a href="#">Gallery</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="gallery-grid2.html">Gallery 2 Grid</a></li>
-                                            <li><a href="gallery-masonary.html">Gallery Masonary</a></li>
-                                        </ul>
+                                        <a href="/products">Shop</a>
                                     </li>
                                     <li>
-                                        <a href="#">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                            <li><a href="blog-ls.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-single.html">Blog Single Page</a></li>
-                                        </ul>
+                                        <a href="/cart">cart</a>
                                     </li>
+                                    <li><a href="/contact">Contact</a></li>
                                     <li>
-                                        <a href="#">Shop</a>
+                                        <a href="#">About Us</a>
                                         <ul class="agri-ul">
-                                            <li><a href="product-page.html">Product</a></li>
-                                            <li><a href="product-single.html">Product Single</a></li>
-                                            <li><a href="cart-page.html">Cart Page</a></li>
+                                            <li><a href="/about">About </a></li>
+                                            <li><a href="/team"> Ours Team</a></li>
+                                            <li><a href="/faq">Faq</a></li>
+
                                         </ul>
                                     </li>
-                                    <li><a href="contact-us.html">Contact</a></li>
+                                    <li><a href="/login">Login</a></li>
+                                    
                                 </ul>
                             </div>
                             <div class="header-btn">
-                                <a href="#" class="lab-btn"><span>Get in Touch</span></a>
+                                <a href="/contact" class="lab-btn"><span>Get in Touch</span></a>
                             </div>
                         </div>
                     </div>

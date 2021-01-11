@@ -37,157 +37,8 @@
         </div>
 		<!-- preloader ending here -->
 		
-		<!-- Mobile Menu Start Here -->
-		<div class="mobile-menu">
-			<nav class="mobile-header">
-				<div class="header-logo">
-					<a href="index.html"><img src="resources/assets/images/logo/01.png" alt="logo"></a>
-				</div>
-				<div class="header-bar">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</nav>
-			<nav class="mobile-menu">
-				<div class="mobile-menu-area">
-					<div class="mobile-menu-area-inner">
-						<ul class="agri-ul">
-							<li><a href="#">Home</a>
-								<ul class="agri-ul">
-									<li><a href="index.html">Agricul Farm</a></li>
-									<li><a href="index-2.html">Agricul Farm2</a></li>
-									<li><a href="index-3.html">Agricul Farm3</a></li>
-									<li><a href="index-4.html">Agricul Farm4</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Pages</a>
-								<ul class="agri-ul">
-									<li><a href="about.html">About Page</a></li>
-									<li><a href="team.html">Team Page</a></li>
-									<li><a href="faq-page.html">Faq Page</a></li>
-									<li><a href="404.html">404 Page</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Gallery</a>
-								<ul class="agri-ul">
-									<li><a href="gallery-grid2.html">Gallery 2 Grid</a></li>
-									<li><a href="gallery-masonary.html">Gallery Masonary</a></li>
-								</ul>
-							</li>
-							<li class="active">
-								<a href="#">Blog</a>
-								<ul>
-									<li class="active"><a href="blog.html">Blog Right Sidebar</a></li>
-									<li><a href="blog-ls.html">Blog Left Sidebar</a></li>
-									<li><a href="blog-single.html">Blog Single Page</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Shop</a>
-								<ul class="agri-ul">
-									<li><a href="product-page.html">Product</a></li>
-									<li><a href="product-single.html">Product Single</a></li>
-									<li><a href="cart-page.html">Cart Page</a></li>
-								</ul>
-							</li>
-							<li><a href="contact-us.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-		<!-- Mobile Menu Ending Here -->
-
-		<!-- desktop menu start here -->
-		<header class="header-section">
-            <div class="header-top">
-				<div class="container">
-					<div class="row justify-content-center align-items-center">
-						<div class="col-lg-7 col-12">
-							<div class="ht-left">
-								<ul class="agri-ul d-flex flex-wrap">
-									<li><i class="icofont-envelope"></i><span>Chashi@gmail.com</span></li>
-									<li><i class="icofont-phone"></i><span>+88130-589-745-6987</span></li>
-									<li><i class="icofont-stopwatch"></i><span>Mon - Fri 09:00 - 18:00</span></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-5 col-12">
-							<div class="ht-right">
-								<div class="scocial-media">
-                                    <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                                    <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-                                    <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
-                                    <a href="#" class="vimeo"><i class="icofont-vimeo"></i></a>
-                                </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="header-area">
-				<div class="container">
-					<div class="primary-menu">
-						<div class="logo">
-							<a href="index.html"><img src="resources/assets/images/logo/01.png" alt="logo"></a>
-						</div>
-						<div class="main-area">
-							<div class="main-menu">
-								<ul class="agri-ul">
-									<li><a href="#">Home</a>
-										<ul class="agri-ul">
-											<li><a href="index.html">Agricul Farm</a></li>
-                                            <li><a href="index-2.html">Agricul Farm2</a></li>
-											<li><a href="index-3.html">Agricul Farm3</a></li>
-											<li><a href="index-4.html">Agricul Farm4</a></li>
-										</ul>
-									</li>
-									<li>
-                                        <a href="#">Pages</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="about.html">About Page</a></li>
-                                            <li><a href="team.html">Team Page</a></li>
-                                            <li><a href="faq-page.html">Faq Page</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                        </ul>
-                                    </li>
-									<li>
-                                        <a href="#">Gallery</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="gallery-grid2.html">Gallery 2 Grid</a></li>
-                                            <li><a href="gallery-masonary.html">Gallery Masonary</a></li>
-                                        </ul>
-                                    </li>
-									<li class="active">
-										<a href="#">Blog</a>
-										<ul>
-											<li class="active"><a href="blog.html">Blog Right Sidebar</a></li>
-											<li><a href="blog-ls.html">Blog Left Sidebar</a></li>
-											<li><a href="blog-single.html">Blog Single Page</a></li>
-										</ul>
-									</li>
-									<li>
-                                        <a href="#">Shop</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="product-page.html">Product</a></li>
-                                            <li><a href="product-single.html">Product Single</a></li>
-                                            <li><a href="cart-page.html">Cart Page</a></li>
-                                        </ul>
-                                    </li>
-									<li><a href="contact-us.html">Contact</a></li>
-								</ul>
-							</div>
-							<div class="header-btn">
-								<a href="#" class="lab-btn"><span>Get in Touch</span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+<!--Header-->
+ <jsp:include page="/WEB-INF/jsp/common/header-menu.jsp" />
         <!-- desktop menu ending here -->
 
         <!-- Page Header Section Start Here -->
@@ -224,11 +75,11 @@
 												<li><span>October 9, 2019 10:59 am </span></li>
 												<li><span>By <a href="#">Sahjahan Sagor</a></span></li>
 											</ul>
-											<a href="blog-single.html"><h3>Continually proactive services</h3></a>
+											<a href="/blog-single"><h3>Continually proactive services</h3></a>
 											<p>It’s no secret that the digital industry is booming. from exciting startups to global brands, to the new companies are reachin boomingesagencies, responding to the new possibilities available. however, the industry is exciting  fast becoming overcr heaving with goloballife agencies offering similar services.</p>
 											<div class="d-flex flex-wrap justify-content-between more-com">
 												<div class="text-btn">
-													<a href="blog-single.html"><span>Read More<i class="fa fa-angle-double-right"></i></span></a>
+													<a href="/blog-single"><span>Read More<i class="fa fa-angle-double-right"></i></span></a>
 												</div>
 												<div class="comment-visi">
 													<span><i class="far fa-comment"></i> <a href="#">3 Comment</a></span>
@@ -241,7 +92,7 @@
 								<div class="post-item-2">
 									<div class="post-inner">
 										<div class="post-thumb">
-											<a href="blog-single.html">
+											<a href="/blog-single">
 												<img src="resources/assets/images/blog/05.jpg" alt="blog">
 											</a>
 										</div>
@@ -250,11 +101,11 @@
 												<li><span>October 9, 2019 10:59 am </span></li>
 												<li><span>By <a href="#">Sahjahan Sagor</a></span></li>
 											</ul>
-											<a href="blog-single.html"><h3>Continually proactive services</h3></a>
+											<a href="/blog-single"><h3>Continually proactive services</h3></a>
 											<p>It’s no secret that the digital industry is booming. from exciting startups to global brands, to the new companies are reachin boomingesagencies, responding to the new possibilities available. however, the industry is exciting  fast becoming overcr heaving with goloballife agencies offering similar services.</p>
 											<div class="d-flex flex-wrap justify-content-between more-com">
 												<div class="text-btn">
-													<a href="blog-single.html"><span>Read More<i class="fa fa-angle-double-right"></i></span></a>
+													<a href="/blog-single"><span>Read More<i class="fa fa-angle-double-right"></i></span></a>
 												</div>
 												<div class="comment-visi">
 													<span><i class="far fa-comment"></i> <a href="#">3 Comment</a></span>

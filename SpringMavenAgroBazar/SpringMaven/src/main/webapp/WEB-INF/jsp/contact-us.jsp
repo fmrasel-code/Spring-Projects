@@ -36,158 +36,8 @@
             </div>
         </div>
         <!-- preloader ending here -->
-
-        <!-- Mobile Menu Start Here -->
-        <div class="mobile-menu">
-            <nav class="mobile-header">
-                <div class="header-logo">
-                    <a href="index.html"><img src="resources/assets/images/logo/01.png" alt="logo"></a>
-                </div>
-                <div class="header-bar">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-            <nav class="mobile-menu">
-                <div class="mobile-menu-area">
-                    <div class="mobile-menu-area-inner">
-                        <ul class="agri-ul">
-                            <li><a href="#">Home</a>
-                                <ul class="agri-ul">
-                                    <li><a href="index.html">Agricul Farm</a></li>
-                                    <li><a href="index-2.html">Agricul Farm2</a></li>
-                                    <li><a href="index-3.html">Agricul Farm3</a></li>
-                                    <li><a href="index-4.html">Agricul Farm4</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Pages</a>
-                                <ul class="agri-ul">
-                                    <li><a href="about.html">About Page</a></li>
-                                    <li><a href="team.html">Team Page</a></li>
-                                    <li><a href="faq-page.html">Faq Page</a></li>
-                                    <li><a href="404.html">404 Page</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Gallery</a>
-                                <ul class="agri-ul">
-                                    <li><a href="gallery-grid2.html">Gallery 2 Grid</a></li>
-                                    <li><a href="gallery-masonary.html">Gallery Masonary</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Blog</a>
-                                <ul>
-                                    <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-ls.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-single.html">Blog Single Page</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Shop</a>
-                                <ul class="agri-ul">
-                                    <li><a href="product-page.html">Product</a></li>
-                                    <li><a href="product-single.html">Product Single</a></li>
-                                    <li><a href="cart-page.html">Cart Page</a></li>
-                                </ul>
-                            </li>
-                            <li class="active"><a href="contact-us.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- Mobile Menu Ending Here -->
-
-        <!-- desktop menu start here -->
-        <header class="header-section">
-            <div class="header-top">
-                <div class="container">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-lg-7 col-12">
-                            <div class="ht-left">
-                                <ul class="agri-ul d-flex flex-wrap">
-                                    <li><i class="icofont-envelope"></i><span>AgroBazar@gmail.com</span></li>
-                                    <li><i class="icofont-phone"></i><span>+88130-589-745-6987</span></li>
-                                    <li><i class="icofont-stopwatch"></i><span>Mon - Fri 09:00 - 18:00</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-12">
-                            <div class="ht-right">
-                                <div class="scocial-media">
-                                    <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                                    <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-                                    <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
-                                    <a href="#" class="vimeo"><i class="icofont-vimeo"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-area">
-                <div class="container">
-                    <div class="primary-menu">
-                        <div class="logo">
-                            <a href="index.html"><img src="resources/assets/images/logo/01.png" alt="logo"></a>
-                        </div>
-                        <div class="main-area">
-                            <div class="main-menu">
-                                <ul class="agri-ul">
-                                    <li><a href="#">Home</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="index.html">Agricul Farm</a></li>
-                                            <li><a href="index-2.html">Agricul Farm2</a></li>
-                                            <li><a href="index-3.html">Agricul Farm3</a></li>
-                                            <li><a href="index-4.html">Agricul Farm4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Pages</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="about.html">About Page</a></li>
-                                            <li><a href="team.html">Team Page</a></li>
-                                            <li><a href="faq-page.html">Faq Page</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Gallery</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="gallery-grid2.html">Gallery 2 Grid</a></li>
-                                            <li><a href="gallery-masonary.html">Gallery Masonary</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                            <li><a href="blog-ls.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-single.html">Blog Single Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Shop</a>
-                                        <ul class="agri-ul">
-                                            <li><a href="product-page.html">Product</a></li>
-                                            <li><a href="product-single.html">Product Single</a></li>
-                                            <li><a href="cart-page.html">Cart Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="active"><a href="contact-us.html">Contact</a></li>
-                                </ul>
-                            </div>
-                            <div class="header-btn">
-                                <a href="#" class="lab-btn"><span>Get in Touch</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+<!--Header-->
+ <jsp:include page="/WEB-INF/jsp/common/header-menu.jsp" />
         <!-- desktop menu ending here -->
 
         <!-- Page Header Section Start Here -->
@@ -216,7 +66,7 @@
                                     <i class="icofont-google-map"></i>
                                 </div>
                                 <div class="contact-details">
-                                    <p>Sector # 48,123 Street,Melbourn City Australia.</p>
+                                    <p>Sector # 48,123 Street,Dhaka Bangladesh.</p>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +86,7 @@
                                     <i class="icofont-envelope"></i>
                                 </div>
                                 <div class="contact-details">
-                                    <p>agrifarmagency@gmail.com www,agrifarm24@gmail.com</p>
+                                    <p>agrifarmagency@gmail.com</p>
                                 </div>
                             </div>
                         </div>
