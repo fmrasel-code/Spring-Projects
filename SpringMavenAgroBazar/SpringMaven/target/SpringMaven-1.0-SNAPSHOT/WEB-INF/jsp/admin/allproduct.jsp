@@ -36,11 +36,11 @@
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
+                    <th>Photo Thumb</th>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Condition</th>
+                    <th>price</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -52,6 +52,7 @@
                     <td>Win 95+</td>
                     <td> 4</td>
                     <td>X</td>
+
                   </tr>
                   <tr>
                     <td>Trident</td>
@@ -454,11 +455,11 @@
                   </tbody>
                   <tfoot>
                   <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
+                    <th>Photo Thumb</th>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Condition</th>
+                    <th>price</th>
                   </tr>
                   </tfoot>
                 </table>

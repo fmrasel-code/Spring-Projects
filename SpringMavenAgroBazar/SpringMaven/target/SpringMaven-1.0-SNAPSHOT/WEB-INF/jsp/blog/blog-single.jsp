@@ -37,8 +37,8 @@
         </div>
         <!-- preloader ending here -->
 
-<!--Header-->
- <jsp:include page="/WEB-INF/jsp/common/header-menu.jsp" />
+        <!--Header-->
+        <jsp:include page="/WEB-INF/jsp/common/header-menu.jsp" />
         <!-- desktop menu ending here -->
 
         <!-- Page Header Section Start Here -->
@@ -516,8 +516,10 @@
         <a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i><span class="pluse_1"></span><span class="pluse_2"></span></a>
         <!-- scrollToTop ending here -->
 
+        <!--JS File Link-->
+ <jsp:include page="/WEB-INF/jsp/common/footer.jsp" />
 
-        <script src="resources/assets/js/jquery.js"></script>
+<!--        <script src="resources/assets/js/jquery.js"></script>
         <script src="resources/assets/js/fontawesome.min.js"></script>
         <script src="resources/assets/js/waypoints.min.js"></script>
         <script src="resources/assets/js/bootstrap.min.js"></script>
@@ -527,6 +529,6 @@
         <script src="resources/assets/js/jquery.counterup.min.js"></script>
         <script src="resources/assets/js/isotope.pkgd.min.js"></script>
         <script src="resources/assets/js/lightcase.js"></script>
-        <script src="resources/assets/js/functions.js"></script>
+        <script src="resources/assets/js/functions.js"></script>-->
     </body>
 </html>

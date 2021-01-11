@@ -21,10 +21,11 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="resources/dist/css/adminlte.min.css">
 </head>
+
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Agro</b>Bazar</a>
+    <a href="/"><b>Agro</b>Bazar</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -59,7 +60,7 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+              <button type="submit" class="btn btn-warning btn-block"><a href="/admin">Sign In</a></button> 
           </div>
           <!-- /.col -->
         </div>
@@ -77,10 +78,10 @@
       <!-- /.social-auth-links -->
 
       <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
+        <a href="/forgot-password">I forgot my password</a>
       </p>
       <p class="mb-0">
-        <a href="register.html" class="text-center">Register a new membership</a>
+        <a href="/register" class="text-center">Register a new membership</a>
       </p>
     </div>
     <!-- /.login-card-body -->

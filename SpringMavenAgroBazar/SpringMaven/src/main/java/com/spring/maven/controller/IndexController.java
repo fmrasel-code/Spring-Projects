@@ -21,10 +21,12 @@ public class IndexController {
     public ModelAndView index() {
         return new ModelAndView("index");
     }
+
     @RequestMapping("/index")
     public ModelAndView index1() {
         return new ModelAndView("index");
     }
+
     @RequestMapping("/404")
     public ModelAndView notFound() {
         return new ModelAndView("404");
@@ -32,7 +34,7 @@ public class IndexController {
 
     @RequestMapping("/cart")
     public ModelAndView cartPage() {
-        return new ModelAndView("cart-page");
+        return new ModelAndView("cart");
     }
 
     @RequestMapping("/products")
@@ -87,12 +89,12 @@ public class IndexController {
         return new ModelAndView("admin/login");
     }
 
-    @RequestMapping("/registration")
+    @RequestMapping("/register")
     public ModelAndView register() {
         return new ModelAndView("admin/registration");
     }
 
-    @RequestMapping("/forgetpassword")
+    @RequestMapping("/forgot-password")
     public ModelAndView recoverPasswrod() {
         return new ModelAndView("admin/recover-password");
     }
@@ -110,6 +112,16 @@ public class IndexController {
     @RequestMapping("/add-product")
     public ModelAndView addProduct() {
         return new ModelAndView("admin/add-product");
+    }
+
+    @RequestMapping("/addProduct")
+    public ModelAndView addProductviews() {
+        return new ModelAndView("admin/views/addProduct");
+    }
+
+    @RequestMapping("/edit-product")
+    public ModelAndView editProduct() {
+        return new ModelAndView("admin/editProduct");
     }
 
     @RequestMapping("/all-product")
@@ -131,10 +143,10 @@ public class IndexController {
     public ModelAndView pendingOrders() {
         return new ModelAndView("admin/pending-orders");
     }
-    
+
     @RequestMapping("/awayting-for-payment")
     public ModelAndView awaytingForPayment() {
         return new ModelAndView("admin/awayting-for-payment");
     }
-    
+
 }

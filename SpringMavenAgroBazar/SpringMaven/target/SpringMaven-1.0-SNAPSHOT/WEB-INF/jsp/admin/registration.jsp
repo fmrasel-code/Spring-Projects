@@ -24,7 +24,7 @@
 <body class="hold-transition register-page">
 <div class="register-box">
   <div class="register-logo">
-    <a href="../../index2.html"><b>Agro</b>Bazar</a>
+    <a href="/"><b>Agro</b>Bazar</a>
   </div>
 
   <div class="card">
@@ -93,7 +93,7 @@
         </a>
       </div>
 
-      <a href="login.html" class="text-center">I already have a membership</a>
+      <a href="/login" class="text-center">I already have a membership</a>
     </div>
     <!-- /.form-box -->
   </div><!-- /.card -->

@@ -24,14 +24,14 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Agro</b>Bazar</a>
+    <a href="/"><b>Agro</b>Bazar</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">You are only one step a way from your new password, recover your password now.</p>
 
-      <form action="login.html" method="post">
+      <form action="/login" method="post">
         <div class="input-group mb-3">
           <input type="password" class="form-control" placeholder="Password">
           <div class="input-group-append">
@@ -57,7 +57,7 @@
       </form>
 
       <p class="mt-3 mb-1">
-        <a href="login.html">Login</a>
+        <a href="/login">Login</a>
       </p>
     </div>
     <!-- /.login-card-body -->

@@ -11,8 +11,9 @@
         <title>AgroBazar Cart Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- google fonts -->
+        <!-- CSS File Link-->
+       <jsp:include page="/WEB-INF/jsp/common/header.jsp" />
+<!--         google fonts 
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="resources/assets/images/x-icon/agricul.png">
 
@@ -22,7 +23,7 @@
         <link rel="stylesheet" href="resources/assets/css/icofont.min.css">
         <link rel="stylesheet" href="resources/assets/css/lightcase.css">
         <link rel="stylesheet" href="resources/assets/css/swiper.min.css">
-        <link rel="stylesheet" href="resources/assets/css/style.css">
+        <link rel="stylesheet" href="resources/assets/css/style.css">-->
     </head>
 
     <body>
@@ -391,18 +392,9 @@
         <!-- scrollToTop start here -->
         <a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i><span class="pluse_1"></span><span class="pluse_2"></span></a>
         <!-- scrollToTop ending here -->
-
-
-        <script src="resources/assets/js/jquery.js"></script>
-        <script src="resources/assets/js/fontawesome.min.js"></script>
-        <script src="resources/assets/js/waypoints.min.js"></script>
-        <script src="resources/assets/js/bootstrap.min.js"></script>
-        <script src="resources/assets/js/wow.min.js"></script>
-        <script src="resources/assets/js/swiper.min.js"></script>
-        <script src="resources/assets/js/jquery.countdown.min.js"></script>
-        <script src="resources/assets/js/jquery.counterup.min.js"></script>
-        <script src="resources/assets/js/isotope.pkgd.min.js"></script>
-        <script src="resources/assets/js/lightcase.js"></script>
-        <script src="resources/assets/js/functions.js"></script>
+        
+<!--JS File Link-->
+ <jsp:include page="/WEB-INF/jsp/common/footer.jsp" />
+ 
     </body>
 </html>
