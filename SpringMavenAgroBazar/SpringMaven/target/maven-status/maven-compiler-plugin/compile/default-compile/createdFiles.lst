@@ -10,6 +10,7 @@ com\spring\maven\controller\impl\IEmployeeController.class
 com\spring\maven\model\Product.class
 com\spring\maven\service\impl\ProductServiceImpl.class
 com\spring\maven\common\ICommonDAO.class
+com\spring\maven\controller\ProductController.class
 com\spring\maven\dao\impl\CustomerOrderDaoImpl.class
 com\spring\maven\model\CustomerOrder.class
 com\spring\maven\service\CustomerOrderService.class

@@ -32,17 +32,17 @@ public class IndexController {
         return new ModelAndView("404");
     }
 
-    @RequestMapping("/cart")
+    @RequestMapping("/cart1")
     public ModelAndView cartPage() {
         return new ModelAndView("cart");
     }
 
-    @RequestMapping("/products")
+    @RequestMapping("/products1")
     public ModelAndView productPage() {
         return new ModelAndView("product-page");
     }
 
-    @RequestMapping("/product-single")
+    @RequestMapping("/product-single1")
     public ModelAndView productSingle() {
         return new ModelAndView("product-single");
     }
@@ -62,7 +62,7 @@ public class IndexController {
         return new ModelAndView("contact-us");
     }
 
-    @RequestMapping("/about")
+    @RequestMapping("/about1")
     public ModelAndView about() {
         return new ModelAndView("about");
     }
@@ -84,57 +84,52 @@ public class IndexController {
     }
 
 //    Admin panel
-    @RequestMapping("/login")
+    @RequestMapping("/login1")
     public ModelAndView login() {
         return new ModelAndView("admin/login");
     }
 
-    @RequestMapping("/register")
+    @RequestMapping("/register1")
     public ModelAndView register() {
         return new ModelAndView("admin/registration");
     }
 
-    @RequestMapping("/forgot-password")
+    @RequestMapping("/forgot-password1")
     public ModelAndView recoverPasswrod() {
         return new ModelAndView("admin/recover-password");
     }
 
-    @RequestMapping("/admin")
+    @RequestMapping("/admin1")
     public ModelAndView adminPanel() {
         return new ModelAndView("admin/adminpanel");
     }
 
-    @RequestMapping("/invoice")
+    @RequestMapping("/invoice1")
     public ModelAndView invoice() {
         return new ModelAndView("admin/invoice");
     }
 
-    @RequestMapping("/add-product")
+    @RequestMapping("/add-product1")
     public ModelAndView addProduct() {
         return new ModelAndView("admin/add-product");
     }
 
-    @RequestMapping("/addProduct")
-    public ModelAndView addProductviews() {
-        return new ModelAndView("admin/views/addProduct");
-    }
-
-    @RequestMapping("/edit-product")
+    @RequestMapping("/edit-product1")
     public ModelAndView editProduct() {
         return new ModelAndView("admin/editProduct");
     }
 
-    @RequestMapping("/all-product")
+    @RequestMapping("/all-product1")
     public ModelAndView allProduct() {
         return new ModelAndView("admin/allproduct");
     }
 
-    @RequestMapping("/orders")
+    @RequestMapping("/orders1")
     public ModelAndView orders() {
         return new ModelAndView("admin/orders");
     }
 
-    @RequestMapping("/new-orders")
+    @RequestMapping("/new-orders1")
     public ModelAndView newOrders() {
         return new ModelAndView("admin/new-order");
     }

@@ -28,9 +28,9 @@
     <context:annotation-config/>
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="url" value="jdbc:mysql://localhost:3308/tsp"/>
-        <property name="username" value="maruf"/>
-        <property name="password" value="maruf"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/agrobazar"/>
+        <property name="username" value="root"/>
+        <property name="password" value="1234"/>
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
     </bean>
     
