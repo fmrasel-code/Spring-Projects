@@ -1,5 +1,6 @@
 com\spring\maven\service\impl\CustomerServiceImpl.class
 com\spring\maven\common\ICommonController.class
+com\spring\maven\dao\impl\IUsersDAO.class
 com\spring\maven\controller\IndexController.class
 com\spring\maven\model\Authorities.class
 com\spring\maven\model\Customer.class
@@ -14,9 +15,11 @@ com\spring\maven\controller\ProductController.class
 com\spring\maven\dao\impl\CustomerOrderDaoImpl.class
 com\spring\maven\model\CustomerOrder.class
 com\spring\maven\service\CustomerOrderService.class
+com\spring\maven\controller\impl\IUsersController.class
 com\spring\maven\service\ProductService.class
 com\spring\maven\service\impl\IEmployeeService.class
 com\spring\maven\dao\impl\IEmployeeDAO.class
+com\spring\maven\dao\UsersDAO.class
 com\spring\maven\service\CustomerService.class
 com\spring\maven\service\impl\CartItemServiceImpl.class
 com\spring\maven\model\CartItem.class
@@ -31,10 +34,13 @@ com\spring\maven\controller\EmployeeController.class
 com\spring\maven\dao\CustomerDao.class
 com\spring\maven\dao\EmployeeDAO.class
 com\spring\maven\dao\impl\CartDaoImpl.class
+com\spring\maven\service\impl\IUsersService.class
 com\spring\maven\dao\impl\CustomerDaoImpl.class
 com\spring\maven\dao\impl\ProductDaoImpl.class
 com\spring\maven\service\EmployeeService.class
 com\spring\maven\model\Cart.class
+com\spring\maven\controller\UsersController.class
+com\spring\maven\service\UsersService.class
 com\spring\maven\dao\impl\CartItemDaoImpl.class
 com\spring\maven\model\BillingAddress.class
 com\spring\maven\service\CartService.class
