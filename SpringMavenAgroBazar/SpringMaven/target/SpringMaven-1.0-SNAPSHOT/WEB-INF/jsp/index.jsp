@@ -70,6 +70,9 @@
                                     <li>
                                         <a href="/cart">cart</a>
                                     </li>
+                                    <li>
+                                        <a href="/product/create">Product</a>
+                                    </li>
                                     <li><a href="/contact">Contact</a></li>
                                     <li>
                                         <a href="#">About Us</a>
@@ -114,6 +117,9 @@
                                     <li>
                                         <a href="/cart">cart</a>
                                     </li>
+<!--                                    <li>
+                                        <a href="/product/create">Product</a>
+                                    </li>-->
                                     <li><a href="/contact">Contact</a></li>
                                     <li>
                                         <a href="#">About Us</a>

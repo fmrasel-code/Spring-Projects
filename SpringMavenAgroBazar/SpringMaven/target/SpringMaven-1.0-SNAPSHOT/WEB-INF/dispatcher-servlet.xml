@@ -48,7 +48,8 @@
         <property name="annotatedClasses">
             <list>
                 <value>com.spring.maven.model.Employee</value>
-                <value>com.spring.maven.model.Users</value>
+                
+                <value>com.spring.maven.model.Product</value>
             </list>
         </property>
     </bean>
