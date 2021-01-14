@@ -37,7 +37,7 @@ public class ProductController implements IProductControllerImpl{
     @Override
     public ModelAndView save(HttpServletRequest request) {
         productService.save(request);
-        return new ModelAndView("/index");
+        return new ModelAndView("/product/create");
     }
 
     @Override

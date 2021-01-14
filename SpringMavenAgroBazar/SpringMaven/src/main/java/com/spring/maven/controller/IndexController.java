@@ -109,11 +109,6 @@ public class IndexController {
         return new ModelAndView("admin/invoice");
     }
 
-    @RequestMapping("/add-product")
-    public ModelAndView addProduct() {
-        return new ModelAndView("admin/add-product");
-    }
-
     @RequestMapping("/edit-product")
     public ModelAndView editProduct() {
         return new ModelAndView("admin/editProduct");

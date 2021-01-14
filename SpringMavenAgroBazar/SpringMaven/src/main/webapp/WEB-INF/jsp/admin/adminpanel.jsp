@@ -769,7 +769,7 @@
     <script>
         $(document).ready(function () {
             $(".add-product").click(function () {
-                $("#page-loader").load("/add-product");
+                $("#page-loader").load("/products/add-product");
             });
             $(".all-product").click(function () {
                 $("#page-loader").load("/all-product");
