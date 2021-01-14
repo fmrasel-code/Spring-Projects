@@ -8,12 +8,16 @@ com\spring\maven\common\ICommonDAO.class
 com\spring\maven\controller\ProductController.class
 com\spring\maven\dao\ProductDAO.class
 com\spring\maven\service\AddProductService.class
+com\spring\maven\dao\impl\IBillingAddressDAOImpl.class
 com\spring\maven\service\ProductService.class
 com\spring\maven\controller\impl\IProductControllerImpl.class
 com\spring\maven\model\AddProduct.class
 com\spring\maven\service\impl\IEmployeeService.class
+com\spring\maven\controller\BillingAddressController.class
 com\spring\maven\dao\impl\IEmployeeDAO.class
+com\spring\maven\service\BillingAddressService.class
 com\spring\maven\service\impl\IProductServiceImpl.class
+com\spring\maven\dao\BillingAddressDAO.class
 com\spring\maven\dao\impl\IProductDAOImpl.class
 com\spring\maven\model\Employee.class
 com\spring\maven\service\impl\IAddProductServiceImpl.class
@@ -21,5 +25,8 @@ com\spring\maven\controller\EmployeeController.class
 com\spring\maven\dao\impl\IAddProductDAOImpl.class
 com\spring\maven\dao\EmployeeDAO.class
 com\spring\maven\controller\AddProductController.class
+com\spring\maven\controller\impl\IBillingAddressControllerImpl.class
 com\spring\maven\service\EmployeeService.class
 com\spring\maven\dao\AddProductDAO.class
+com\spring\maven\model\BillingAddress.class
+com\spring\maven\service\impl\IBillingAddressServiceImpl.class
