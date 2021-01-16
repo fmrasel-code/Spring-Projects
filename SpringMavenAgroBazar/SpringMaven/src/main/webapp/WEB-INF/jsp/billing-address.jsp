@@ -116,7 +116,7 @@
         <div class="row">
             <div class="col-75">
                 <div class="container">
-                    <form action="/billigAddress/save">
+                    <form action="/billigAddress/save" method="post">
 
                         <div class="row">
                             <div class="col-50">
@@ -143,7 +143,7 @@
                                 <label for="city"><i class="fa fa-institution"></i> Country</label>
                                 <input type="text" id="country" name="country" placeholder="Bangladesh">
                             </div>
-
+<input type="hidden" id="country" name="customerId" placeholder="Bangladesh">
                             <div class="col-50">
                                 <h3>Payment</h3>
                                 <label for="fname">Accepted Cards</label>

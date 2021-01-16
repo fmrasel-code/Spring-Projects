@@ -30,9 +30,9 @@ public class BillingAddressService implements IBillingAddressServiceImpl {
         String address = request.getParameter("address");
         String city = request.getParameter("city");
         String state = request.getParameter("state");
-        int zipcode = Integer.parseInt(request.getParameter("zipCode"));
+        String zipcode = request.getParameter("zipCode");
         String country = request.getParameter("country");
-        int customerid = Integer.parseInt(request.getParameter("customerId"));
+        String customerid = request.getParameter("customerId");
         
         BillingAddress b = new BillingAddress();
         b.setFullName(fullname);
@@ -42,6 +42,8 @@ public class BillingAddressService implements IBillingAddressServiceImpl {
         b.setState(state);
         b.setZipCode(zipcode);
         b.setCountry(country);
+        b.setCustomerId(customerid);
+     
         
         return billingAddressDao.save(b);
         

@@ -25,9 +25,25 @@ public class BillingAddress {
     private String address;
     private String city;
     private String state;
-    private int zipCode;
+    private String zipCode;
+
+    public String getZipCode() {
+        return zipCode;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
+    }
     private String country;
-    private int customerId;
+    private String customerId;
 
     public void setBillingAddressId(int billingAddressId) {
         this.billingAddressId = billingAddressId;
@@ -58,7 +74,6 @@ public class BillingAddress {
     }
 
 
-
     public void setCity(String city) {
         this.city = city;
     }
@@ -69,14 +84,6 @@ public class BillingAddress {
 
     public void setState(String state) {
         this.state = state;
-    }
-
-    public void setZipCode(int zipCode) {
-        this.zipCode = zipCode;
-    }
-
-    public void setCustomerId(int customerId) {
-        this.customerId = customerId;
     }
 
     public int getBillingAddressId() {
@@ -93,14 +100,6 @@ public class BillingAddress {
 
     public String getState() {
         return state;
-    }
-
-    public int getZipCode() {
-        return zipCode;
-    }
-
-    public int getCustomerId() {
-        return customerId;
     }
 
     

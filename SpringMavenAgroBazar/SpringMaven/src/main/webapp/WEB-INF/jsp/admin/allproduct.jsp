@@ -41,6 +41,8 @@
                     <th>Category</th>
                     <th>Condition</th>
                     <th>price</th>
+                    <th>edit</th>
+                    <th>view</th>
                   </tr>
                   </thead>
                   <tbody>

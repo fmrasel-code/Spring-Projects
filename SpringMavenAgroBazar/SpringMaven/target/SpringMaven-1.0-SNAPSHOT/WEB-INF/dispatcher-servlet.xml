@@ -50,6 +50,11 @@
                 <value>com.spring.maven.model.Employee</value>
                 
                 <value>com.spring.maven.model.Product</value>
+                <value>com.spring.maven.model.AddProduct</value>
+                <value>com.spring.maven.model.BillingAddress</value>
+                <value>com.spring.maven.model.ProductCategory</value>
+                <value>com.spring.maven.model.Users</value>
+                
             </list>
         </property>
     </bean>
@@ -64,7 +69,7 @@
     
     <bean id="multipartResolver" 
           class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="maxUploadSize" value="100000"/>
+        <property name="maxUploadSize" value="1000000"/>
         
     </bean>
     
