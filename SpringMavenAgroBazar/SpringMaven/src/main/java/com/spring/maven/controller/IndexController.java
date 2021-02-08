@@ -89,11 +89,6 @@ public class IndexController {
         return new ModelAndView("admin/login");
     }
 
-    @RequestMapping("/register")
-    public ModelAndView register() {
-        return new ModelAndView("admin/registration");
-    }
-
     @RequestMapping("/forgot-password")
     public ModelAndView recoverPasswrod() {
         return new ModelAndView("admin/recover-password");
@@ -137,6 +132,11 @@ public class IndexController {
     @RequestMapping("/awayting-for-payment")
     public ModelAndView awaytingForPayment() {
         return new ModelAndView("admin/awayting-for-payment");
+    }
+    
+        @RequestMapping("/viewproductlist")
+    public ModelAndView viewproductlist() {
+        return new ModelAndView("admin/view-product-list");
     }
 
 }

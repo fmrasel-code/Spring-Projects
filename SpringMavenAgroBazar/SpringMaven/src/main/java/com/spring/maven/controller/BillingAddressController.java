@@ -38,7 +38,7 @@ public class BillingAddressController  implements IBillingAddressControllerImpl{
     @Override
     public ModelAndView save(HttpServletRequest request) {
        billingAddressService.save(request);
-       return new ModelAndView("/");
+       return new ModelAndView("/billing-address");
     }
 
     @Override

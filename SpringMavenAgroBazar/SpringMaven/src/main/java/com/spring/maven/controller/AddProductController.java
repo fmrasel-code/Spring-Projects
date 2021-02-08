@@ -53,7 +53,7 @@ public class AddProductController implements IAddProductControllerImpl {
     @Override
     public ModelAndView save(HttpServletRequest request) {
         addProductService.save(request);
-        return new ModelAndView("redirect:/products/add-product");
+        return new ModelAndView("/admin/adminpanel");
     }
 
     @Override
@@ -101,7 +101,7 @@ public class AddProductController implements IAddProductControllerImpl {
 
         }
 
-        return new ModelAndView("/product/add-product");
+        return new ModelAndView("/admin/adminpanel");
 
     }
 
