@@ -158,7 +158,7 @@
 
         <section class="content">
 
-            <form action="/products/save" method="post" >
+            <form action="/products/stored" method="post" enctype="multipart/form-data">
 
                 <div class="row">
                     <div class="col-md-12">
